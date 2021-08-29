@@ -1,0 +1,11 @@
+.options {
+  background-color: #cccccc;
+  padding: 13px 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #5adbff;
+  background-image: url("../Img/quiz.jfif");
+}
+
+.subject-box {
+  background-color: #e9ff70;
+  max-width: 1000px;
+  margin: 40px auto;
+  height: 55rem;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.subject-box button {
+  width: 65%;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #34ebab;
+  border: 2px solid #5adbff;
+  font-size: 20px;
+  margin-bottom: 10rem;
+}
