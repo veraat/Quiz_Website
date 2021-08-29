@@ -1,0 +1,133 @@
+body {
+  background-color: #009688;
+}
+
+.btn {
+  padding: 15px 45px;
+  background-color: #009688;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box #option-container,
+.quiz-box .next-question-button,
+.quiz-box .answers-indicator {
+  width: 100%;
+  float: left;
+  font-size: 22px;
+}
+.quiz-box .question-number {
+  font-size: 18px;
+  color: #009688;
+  font-weight: 600;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  line-height: 25px;
+  background-color: white;
+}
+.quiz-box #question-text {
+  font-size: 22px;
+  color: #000000;
+  line-height: 2px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.quiz-box #option-container .options {
+  background-color: #cccccc;
+  padding: 13px 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.quiz-box .btn {
+  margin-top: 15px 0;
+  color: black;
+  background-color: white;
+}
+
+.quiz-box .answers-indicator {
+  border-top: 1px solid #cccccc;
+}
+
+.quiz-box .answers-indicator div {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background-color: #cccccc;
+  border-radius: 50%;
+  margin-right: 3px;
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+.close {
+  display: none;
+  background-color: white;
+}
+
+.quiz-box .answers-indicator div img {
+  margin-top: 5px;
+  background-color: #009688;
+  /* border-radius: 5px; */
+}
+
+h1 {
+  background-color: white;
+  border-radius: 15px;
+}
+
+#question-number {
+  background-color: white;
+  margin-bottom: 10px;
+  line-height: 30px;
+  font-size: large;
+  border-radius: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.box {
+  background-color: white;
+  margin: 50px;
+  /* line-height: 10; */
+  width: 20rem;
+  height: 160px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.box img {
+  margin-left: 40px;
+  margin-top: 30px;
+  background-color: #009688;
+}
+
+.abel {
+  font-size: 60px;
+  margin-left: 70px;
+}

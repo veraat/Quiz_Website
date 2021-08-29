@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #5adbff;
+  background-image: url("../Img/quiz.jfif");
+}
+
+.standard-box {
+  background-color: #e9ff70;
+  max-width: 1000px;
+  margin: 40px auto;
+  height: 55rem;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.standard-box button {
+  width: 65%;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #34ebab;
+  border: 2px solid #5adbff;
+  font-size: 20px;
+  margin-bottom: 10rem;
+}
+
+.standard-box input {
+  width: 50%;
+  height: 40px;
+  margin: 50px 10px;
+  border-radius: 20px;
+  margin-top: 600px;
+  text-align: center;
+  font-size: large;
+  color: #f19953;
+}
